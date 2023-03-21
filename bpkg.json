@@ -1,0 +1,8 @@
+{
+  "name": "fifo.sh",
+  "version": "0.1",
+  "description": "An implementation of FIFO without using `mkfifo`",
+  "install": "install -b fifo.sh.sh ${PREFIX:-/usr/local}/bin/fifo.sh",
+  "scripts": [ "fifo.sh" ]
+}
+
